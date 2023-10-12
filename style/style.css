@@ -1,0 +1,43 @@
+body {
+  background-color: #efefef;
+}
+
+.container {
+  display: flex;
+}
+
+.side {
+  background-color: #050e54;
+  padding: 4em;
+}
+
+.main-box {
+  background-color: #ddd;
+  padding: 2em;
+  flex-grow: 1;
+}
+strong {
+  color: #050e54;
+}
+
+.strong {
+  font-size: 3rem;
+}
+
+.my-info {
+  font-style: italic;
+  font-size: 0.8em;
+  padding: 0;
+}
+
+.introduce {
+  margin-bottom: 2em;
+}
+
+.link-box a {
+  margin-right: 1rem;
+}
+
+.link-box a:last-child {
+  margin-right: 0;
+}
